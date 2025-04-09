@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #e4e9f7;
+    background-color: silver;
 }
 nav{
     width: 100%;
@@ -32,10 +32,6 @@ nav{
     text-shadow: 0 0 10px Tomato;
 }
 
-#menu{
-    display: none;
-}
-
 
 .nav-container .links{
     display: flex;
@@ -56,6 +52,7 @@ nav{
     left: 0;
     width: 0%;
     height: 3px;
+    border-radius: 10px;
     background-color: Tomato;
     transition: 0.2s linear;
 }
@@ -65,17 +62,7 @@ nav{
 .nav-container .links a:hover{
     color: Tomato;
 }
-.dropdown{
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    transform: translateY(-500px);
-    width: 100%;
-    height: auto;
-    backdrop-filter: blur(4px) brightness(40%);
-    box-shadow:  0 0 20px black;
-    transition: 0.2s linear;
-}
+
 
 section{
     width: 100%;
@@ -89,8 +76,8 @@ section{
     align-items: center;
 }
 .main-container .image{
-    width: 500px;
-    height: 80vh;
+    width: 400px;
+    height: 60vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px Tomato;
@@ -128,7 +115,7 @@ section{
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
     font-weight: 600;
 }
-.content .typewriter-text{
+.content .auto-in{
     color: Tomato;
     text-shadow: 0 0 10px Tomato;
 }
