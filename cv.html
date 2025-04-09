@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webfonts/all.min.css">
+    <link rel="stylesheet" href="webfonts/cv.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <span>Mahamad</span>
+    </header>
+    <div class="content" id="content">
+<div class="left">
+<div class="image">
+    <span id="forme"></span>
+    <img src="télécharger.jpg" alt="logo">
+</div>
+<div class="ligne">
+<div class="contact line">
+    <h2 class="titre"><i class="fas fa-address-book icons"></i> Contactez Moi</h2>
+    <p class="point"><i class="fa fa-phone icons" aria-hidden="true"></i> <span>+22391538302</span></p>
+    <p class="point"><i class="fa fa-envelope icons" aria-hidden="true"></i> <span class="wrap">mahamadmbia0487@gmail.com</span></p>
+    <p class="point"><i class="fa fa-map-marker icons" aria-hidden="true"></i> <span>Yirimadio,<br>Bamako,Mali</span></p>
+</div>
+
+<div class="stude line">
+    <h2 class="titre"><i class="fa fa-graduation-cap icons" aria-hidden="true"></i> Education</h2>
+    <h3>Institut Universitaire de Gestion de Bamako</h3>
+    <div class="stude_list">
+    <h4 class="point">Licence en Informatique de Gestion</h4>
+    <p>Jan. 2019 - Dec 2024</p>
+    </div>
+    <div class="stude_list">
+    <h4 class="point">DUT en Informatique de Gestion</h4>
+    <p>Jan. 2019 - Dec 2024</p>
+        </div>
+   
+</div>
+<div class="references line">
+   <h2 class="titre"> <i class="fas fa-users-cog icons"></i> Références</h2>
+    <div class="ref_list">
+    <h4 class="point">DR. Demba Coulibaly</h4>
+    <p>+22390896932</p>
+    <p>coulibalydemba09@gmail.com</p>
+</div>
+
+<div class="ref_list">
+    <h3 class="point">Awa Samaké</h3>
+    <p>+22373440153</p>
+    <p>samakeawa01@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="right">
+    <div class="moi">
+        <div class="space">
+        <h1>Mahamadou <span>Doumbia</span></h1>
+        <p>Etudiant en Developpement Web&Mobile</p>
+        </div>
+    </div>
+    <div class="all space">
+<h2 class="titre"><i class="fa fa-user-circle icone" aria-hidden="true"></i> A propos de moi</h2>
+<p>
+Détenteur de Licence et DUT en Création et Gestion d'Entreprise Option Informatique de Gestion à l’institue Universitaire de Gestion de Bamako(IUG).         
+</p>
+    </div>
+    <div class="all space">
+        <h2 class="titre"><i class="fas fa-briefcase icone"></i> Expériences</h2>
+        <div class="experiences_list">
+    <h4>Formation en informatique et progamation</h4>
+    <p> Jan 2020 - Jun 2022</p>
+        </div>
+        <div class="experiences_list">
+            <h4>   Stage a la BIM</h4>
+            <p> Avril 2024 - Jun 2024</p>
+        </div>
+        <div class="experiences_list">
+            <h4>Formation  en Développeur  Web et Mobile Orange Digital Kalanso  </h4>
+            <p> Fév. 2025 - Présent</p>
+        </div> 
+    </div>
+
+    <div class="all space">
+        <h2 class="titre"><i class="fa-solid fa-circle-check icone"></i> Compétences</h2>
+        <div class="competence_list">
+            <div class="competence_titre">SQL</div>
+            <div class="competence_bar">
+                <p>
+                    <span style="width: 95%"></span>
+                </p>
+            </div>
+        </div>
+        <div class="competence_list">
+            <div class="competence_titre">HTML</div>
+            <div class="competence_bar">
+                <p>
+                    <span style="width: 90%"></span>
+                </p>
+            </div>
+        </div>
+        <div class="competence_list">
+            <div class="competence_titre">CSS</div>
+            <div class="competence_bar">
+                <p>
+                    <span style="width: 80%"></span>
+                </p>
+            </div>
+    </div>
+    <div class="competence_list">
+        <div class="competence_titre">Javascript</div>
+        <div class="competence_bar">
+            <p>
+                <span style="width: 50%"></span>
+            </p>
+        </div>
+    </div>
+
+
+</div>
+<div class="all space">
+    <h2 class="titre"><i class="fas fa-globe icone"></i> Langues</h2>
+    <div class="lang_list">
+        <div class="lang_titre">Français</div>
+        <div class="lang_bar">
+            <p>
+                <span style="width: 95%"></span>
+            </p>
+        </div>
+    </div>
+    <div class="lang_list">
+        <div class="lang_titre">Bambara</div>
+        <div class="lang_bar">
+            <p>
+                <span style="width: 100%"></span>
+            </p>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<div class="button">
+    <button id="cv">Acceuil</button><button id="btncolor">Change Color</button><button id="btnDown">Telecharger</button>
+</div>
+<script>
+    
+document.getElementById('btnDown').addEventListener('click', function() {
+    var element = document.getElementById('content');
+    var opt = {
+      margin:       0,
+      filename:     'my_cv.pdf',
+      image:        { type: 'jpeg', quality: 1 },
+      html2canvas:  { 
+        scale: 1,
+        scrollX: 276,
+        scrollY: -20,
+        windowWidth: element.scrollWidth,
+        windowHeight: element.scrollHeight,
+        useCORS: true, //pour la securité concernant les liens externes
+      },
+      jsPDF:{ unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+// New Promise-based usage:
+html2pdf().set(opt).from(element).save();
+});
+
+
+document.getElementById('btncolor').addEventListener("click", () =>{
+        var content = document.getElementById('content'); 
+        content.classList.toggle('change');
+ });
+
+
+ document.getElementById('cv').addEventListener("click", () =>{
+        window.location.href = "index.html";
+      });
+</script>
+
+</body>
+</html>
